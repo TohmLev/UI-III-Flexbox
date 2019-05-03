@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older‰ browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -54,13 +54,98 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	max-width: 1000px;
+	width: 100%
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+}
+
+html {
+	margin:100px;
+	margin-top: 20px;
+}
+
+nav { 
+	display: flex;
+	width: 100%;
+	background-color:white;
+	justify-content: space-evenly;
+	align-items: center; 
+}
+
+nav a {
+	color: gray; 
+	text-decoration: none;
+	padding: 0 25px 0;
+}	
+
+header {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	padding:40px;
+}
+
+.billboard {
+	display:flex;
+	width:50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.billboard h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+.billboard button {
+	width: 100px;
+	height: 25px;
+	border-radius: 0%
+}
+
+main {
+	margin: auto;
+	max-width: 100%;
+}
+
+.content1 {
+	display:flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.middle-img {
+width:100%;
+}
+
+.content2 {
+	display:flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.content-block{
+	margin-right:30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+address {
+	margin-right:40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+
+}
+
+footer p {
+	text-align: center;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
